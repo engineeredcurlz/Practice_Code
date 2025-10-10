@@ -6,4 +6,4 @@ class Solution:
             if complement in num_map: #check if complement exists in dictionary. check if complement exists in key num_map. if it does, we found the two numbers tghat sum to target
                 return [num_map[complement], i] #if found, return the index of the complement and current index
             num_map[num] = i #if complement is not found, add the current number and index to dictionary. prepares for future lookups
-        return [] #if no solution\, return error
+        return [] #if no solution, return error
